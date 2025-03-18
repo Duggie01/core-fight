@@ -3,17 +3,17 @@ import { useAccount } from "wagmi";
 // import { useAuth } from "../hooks/useAuth.hook";
 import toast from "react-hot-toast";
 import { useAuth } from "../../hooks/useAuth.hook";
-import Header from "../../components/Header";
+// import Header from "../../components/Header";
 import { useNavigate } from "react-router-dom";
 // import Header from "../components/Header"; // Import the Header component
 
 const LoginSignup = () => {
   const navigate = useNavigate();
-  const { isConnected, address } = useAccount();
+  const { isConnected } = useAccount();
   const { login, signUp, isLoading, user } = useAuth();
   const [username, setUsername] = useState("");
-  const [worldId, setWorldId] = useState<number>(1);
-  const [joinFee, setJoinFee] = useState<number>(0.01); // Example fee
+  const [worldId] = useState<number>(1);
+  const [joinFee] = useState<number>(0.01); // Example fee
 
   const handleSignUp = async () => {
     if (!username.trim()) {

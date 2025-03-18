@@ -1,9 +1,9 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { useAuth } from "../hooks/useAuth.hook";
+// import { useAuth } from "../hooks/useAuth.hook";
 import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  const { user } = useAuth();
+  // const { user } = useAuth();
   const navigate = useNavigate();
 
   return (

@@ -25,7 +25,7 @@ const Worlds = () => {
     createWorld,
     getPlayerLocation,
     contractOwner,
-    isPending,
+    // isPending,
     reading,
   } = useMMOGame();
   const { address, isConnected } = useAccount(); // ✅ Get current wallet address
@@ -121,15 +121,15 @@ const Worlds = () => {
     }
   };
 
-  const checkIfPlayerIsInWorld = async (worldId: number): Promise<boolean> => {
-    try {
-      const playerLocation = await getPlayerLocation();
-      return !!playerLocation; // ✅ If location exists, player is already in world
-    } catch (error) {
-      console.error("Error checking player location:", error);
-      return false; // Default to false if error occurs
-    }
-  };
+  // const checkIfPlayerIsInWorld = async (worldId: number): Promise<boolean> => {
+  //   try {
+  //     const playerLocation = await getPlayerLocation();
+  //     return !!playerLocation; // ✅ If location exists, player is already in world
+  //   } catch (error) {
+  //     console.error("Error checking player location:", error);
+  //     return false; // Default to false if error occurs
+  //   }
+  // };
 
   // ✅ Handle Creating a World (Only for Owner)
   const handleCreateWorld = async () => {

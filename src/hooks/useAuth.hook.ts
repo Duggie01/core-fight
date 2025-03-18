@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
   useAccount,
   useWriteContract,
@@ -22,7 +22,7 @@ interface PlayerData {
 
 export const useAuth = () => {
   const { isConnected, address } = useAccount();
-  const { writeContract, isPending } = useWriteContract();
+  const { writeContract } = useWriteContract();
   const [user, setUser] = useState<PlayerData | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
