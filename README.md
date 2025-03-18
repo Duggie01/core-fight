@@ -2,7 +2,7 @@
 
 ![Core Fight Logo](./assets/core-fight-logo.png)
 
-**Core Fight** is a **sci-fi strategy MMO** built on the **Core Blockchain**, where players create worlds, build cities, deploy armies, and engage in large-scale battles for dominance. Utilizing blockchain technology, *Core Fight* introduces an **on-chain economy**, player-driven battles, and a dynamic world that evolves with player actions.
+**Core Fight** is a **sci-fi strategy MMO** built on the **Core Blockchain**, where the owner creates worlds and players can join worlds, develop and grow their assigned cities, deploy armies, and engage in large-scale battles for dominance. Utilizing blockchain technology, *Core Fight* introduces an **on-chain economy**, player-driven battles, and a dynamic world that evolves with player actions.
 
 ---
 
@@ -25,7 +25,7 @@
 
 ### 2️⃣ Build Your City
 - Upon joining a world, you establish a **city** with initial resources and troops.
-- Cities generate food and materials essential for army expansion.
+- Players must attack animals and other players to grow the power of their city and to sustain their armies.
 
 ### 3️⃣ Engage in Combat
 - **Attack Other Cities** – Send troops to raid and seize resources.  
@@ -34,7 +34,7 @@
 
 ### 4️⃣ Strategic Decisions
 - Players can **toggle war or peace**, fortify defenses, or focus on trading.  
-- The game supports **alliances, betrayals, and real-time conflicts**.  
+- The game supports is a life simulation with features like **alliances, betrayals, and real-time conflicts**.  
 
 ---
 
