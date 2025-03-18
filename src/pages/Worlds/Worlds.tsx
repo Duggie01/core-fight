@@ -206,7 +206,7 @@ const Worlds = () => {
             <div key={world.id } className="bg-gray-800 rounded-xl overflow-hidden shadow-lg group">
               <div className="h-30 w-full ">
                 <img
-                  src="/worlds-images/world1.jpg"
+                  src="/worlds-images/worlds1.svg"
                   alt=""
                   className="w-full h-full object-cover group-hover:scale-110 duration-300"
                 />
