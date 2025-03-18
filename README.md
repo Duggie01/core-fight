@@ -43,6 +43,6 @@
 ### Frontend (React + Vite)  
 ```bash
 git clone https://github.com/your-username/core-fight.git
-cd core-fight/frontend
+cd core-fight/
 npm install
 npm run dev
