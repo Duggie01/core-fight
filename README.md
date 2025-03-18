@@ -1,54 +1,48 @@
-# React + TypeScript + Vite
+# 🏆 Core Fight – A Blockchain-Powered MMO Strategy Game  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Core Fight Logo](./assets/core-fight-logo.png)
 
-Currently, two official plugins are available:
+**Core Fight** is a **sci-fi strategy MMO** built on the **Core Blockchain**, where players create worlds, build cities, deploy armies, and engage in large-scale battles for dominance. Utilizing blockchain technology, *Core Fight* introduces an **on-chain economy**, player-driven battles, and a dynamic world that evolves with player actions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **🏰 Build & Conquer** – Establish cities, gather resources, and expand your empire.  
+- **⚔️ Massive Battles** – Deploy troops to attack cities and battle wild creatures.  
+- **🌍 Dynamic MMO World** – Persistent worlds where players interact, trade, and fight.  
+- **🛡️ Defense Strategies** – Protect your cities using fortifications and strategic positioning.  
+- **🔗 Blockchain Integration** – Use Core Blockchain for ownership, transactions, and rewards.  
+- **🎭 Player-Driven Economy** – Trade resources and manage troops through on-chain mechanics.  
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📜 Gameplay Overview  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 1️⃣ Create or Join a World
+- New worlds are created by the owner of the game with customizable size and entry fees.
+- Players can join existing worlds by paying the entry fee set by the world creator/owner
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### 2️⃣ Build Your City
+- Upon joining a world, you establish a **city** with initial resources and troops.
+- Cities generate food and materials essential for army expansion.
+
+### 3️⃣ Engage in Combat
+- **Attack Other Cities** – Send troops to raid and seize resources.  
+- **Battle Wild Creatures** – Hunt creatures for rewards and strategic advantages.  
+- **Defend Your Territory** – Set up defensive structures and protect your assets.  
+
+### 4️⃣ Strategic Decisions
+- Players can **toggle war or peace**, fortify defenses, or focus on trading.  
+- The game supports **alliances, betrayals, and real-time conflicts**.  
+
+---
+
+## 🛠 Installation & Setup  
+
+### Frontend (React + Vite)  
+```bash
+git clone https://github.com/your-username/core-fight.git
+cd core-fight/frontend
+npm install
+npm run dev
