@@ -1,6 +1,6 @@
 # 🏆 Core Fight – A Blockchain-Powered MMO Strategy Game  
 
-![Core Fight Logo](./assets/core-fight-logo.png)
+![Core Fight Logo](/worlds-images/core-fight2.png)
 
 **Core Fight** is a **sci-fi strategy MMO** built on the **Core Blockchain**, where the owner creates worlds and players can join worlds, develop and grow their assigned cities, deploy armies, and engage in large-scale battles for dominance. Utilizing blockchain technology, *Core Fight* introduces an **on-chain economy**, player-driven battles, and a dynamic world that evolves with player actions.
 
